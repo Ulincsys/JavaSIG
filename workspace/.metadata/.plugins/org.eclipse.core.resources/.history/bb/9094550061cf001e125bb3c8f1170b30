@@ -1,0 +1,5 @@
+package edu.missouri.mca.javasig;
+
+public enum MySecondEnum {
+	ID_1, ID_2, ID_3, ID_4;
+}

@@ -1,0 +1,12 @@
+package edu.missouri.mca.javasig;
+
+public class Main {
+
+	public static void main(String[] args) {
+		MyGenerics<Integer> g = new MyGenerics<Integer>();
+		g.printClass(5);
+		// Integer
+		g.printClass("");
+		// Compile Error
+	}
+}

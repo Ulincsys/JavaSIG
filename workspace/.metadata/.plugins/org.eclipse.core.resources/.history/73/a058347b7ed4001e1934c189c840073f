@@ -1,0 +1,12 @@
+package edu.missouri.mca.javasig;
+
+public class MyImpl extends MyAbstract {
+	public MyImpl(int x) {
+		this.x = x;
+	}
+
+	@Override
+	void fun3() {
+		
+	}
+}

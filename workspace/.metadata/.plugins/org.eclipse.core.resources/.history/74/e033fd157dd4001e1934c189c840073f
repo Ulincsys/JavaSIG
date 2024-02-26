@@ -1,0 +1,7 @@
+package edu.missouri.mca.javasig;
+
+public abstract class MyAbstract {
+	public MyAbstract() {
+		
+	}
+}

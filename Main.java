@@ -1,16 +1,25 @@
+import java.lang.reflect.Method;
 
 public class Main {
     public static void main(String[] args) {
-        String title = "schedule";
-        System.out.println(title);
 
-        Week[] weeks = new Week[10];
-        for(Week week : weeks) {
-            System.out.println(week.topic);
-        }
+        Boolean b = hasMethod(MyPrivateClass.class, "isDecimal");
+        System.out.println(b);
     }
+
+    public static Boolean hasMethod(Class<?> o, String name) {
+		for(Method m : o.getDeclaredMethods()) {
+            System.out.println(m.getName());
+			if(m.getName().equals(name)) {
+				return true;
+			}
+		}
+		return false;
+	}
 }
 
-class Week {
-    protected String topic;
+class MyPrivateClass {
+    private void isDecimal() {
+
+    }
 }

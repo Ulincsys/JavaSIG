@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
 This is a continuation of log file /home/ulincsys/git/JavaSIG/workspace/.metadata/.bak_7.log
-Created Time: 2024-03-04 14:59:07.951
+Created Time: 2024-03-04 17:01:31.586
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:07.951
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:31.586
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -107,7 +107,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:07.951
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:31.586
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -201,7 +201,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:07.951
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:31.586
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -296,7 +296,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:07.951
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:31.586
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -394,7 +394,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:07.951
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:31.586
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -489,7 +489,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:09.354
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:32.492
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -587,7 +587,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:09.354
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:32.492
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -681,7 +681,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:09.354
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:32.492
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -776,7 +776,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:09.355
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:32.492
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -874,7 +874,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:09.355
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:32.492
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -969,7 +969,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:10.393
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:34.083
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -1067,7 +1067,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:10.393
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:34.084
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -1161,7 +1161,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:10.393
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:34.084
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -1256,7 +1256,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:10.393
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:34.084
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -1354,7 +1354,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:10.393
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:34.084
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -1449,7 +1449,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:12.370
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:39.582
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -1547,7 +1547,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:12.370
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:39.582
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -1641,7 +1641,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:12.370
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:39.582
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -1736,7 +1736,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:12.370
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:39.582
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -1834,7 +1834,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:12.370
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:39.583
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -1929,7 +1929,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:15.002
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:40.681
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -2027,7 +2027,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:15.002
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:40.681
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -2121,7 +2121,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:15.002
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:40.681
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -2216,7 +2216,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:15.002
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:40.681
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -2314,7 +2314,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:15.003
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:40.681
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -2409,7 +2409,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:16.062
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:54.140
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -2507,7 +2507,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:16.063
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:54.140
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -2601,7 +2601,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:16.063
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:54.140
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -2696,7 +2696,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:16.063
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:54.140
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -2794,7 +2794,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:16.063
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:54.140
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -2889,7 +2889,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:17.373
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:55.162
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -2987,7 +2987,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:17.373
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:55.162
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -3081,7 +3081,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:17.373
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:55.162
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -3176,7 +3176,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:17.373
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:55.162
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -3274,7 +3274,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:17.373
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:55.162
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -3369,7 +3369,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:18.312
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:56.139
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -3467,7 +3467,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:18.312
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:56.139
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -3561,7 +3561,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:18.313
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:56.139
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -3656,7 +3656,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:18.313
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:56.139
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -3754,7 +3754,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:18.313
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:56.139
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -3849,7 +3849,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:20.088
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:01:57.620
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -3947,7 +3947,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:20.089
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:57.620
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -4041,7 +4041,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:20.089
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:57.620
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -4136,7 +4136,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:20.089
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:01:57.620
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -4234,7 +4234,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:20.089
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:01:57.620
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -4329,7 +4329,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 14:59:24.757
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:21.280
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -4427,7 +4427,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:24.757
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:21.280
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -4521,7 +4521,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:24.758
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:21.280
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -4616,7 +4616,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 14:59:24.758
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:21.280
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -4714,7 +4714,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 14:59:24.758
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:21.280
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -4809,7 +4809,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:03.488
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:28.390
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -4907,7 +4907,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:03.488
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:28.390
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -5001,7 +5001,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:03.488
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:28.390
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -5096,7 +5096,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:03.488
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:28.390
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -5194,7 +5194,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:03.488
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:28.390
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -5289,7 +5289,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:20.634
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:30.997
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -5387,7 +5387,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:20.634
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:30.997
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -5481,7 +5481,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:20.634
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:30.997
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -5576,7 +5576,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:20.634
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:30.997
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -5674,7 +5674,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:20.634
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:30.997
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -5769,7 +5769,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:21.993
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:31.100
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -5867,7 +5867,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:21.993
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:31.100
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -5961,7 +5961,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:21.993
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:31.100
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -6056,7 +6056,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:21.993
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:31.100
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -6154,7 +6154,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:21.993
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:31.100
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -6249,7 +6249,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:25.135
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:32.084
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -6347,7 +6347,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:25.135
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:32.084
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -6441,7 +6441,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:25.135
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:32.084
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -6536,7 +6536,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:25.135
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:32.085
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -6634,7 +6634,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:25.135
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:32.085
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -6729,7 +6729,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:26.329
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:34.161
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -6827,7 +6827,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:26.329
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:34.161
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -6921,7 +6921,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:26.329
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:34.161
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -7016,7 +7016,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:26.329
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:34.161
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -7114,7 +7114,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:26.329
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:34.161
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -7209,7 +7209,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:28.257
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:36.155
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -7307,7 +7307,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:28.257
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:36.155
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -7401,7 +7401,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:28.257
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:36.155
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -7496,7 +7496,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:28.257
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:36.155
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -7594,7 +7594,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:28.257
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:36.155
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -7689,7 +7689,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:30.824
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:38.395
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -7787,7 +7787,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:30.824
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:38.395
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -7881,7 +7881,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:30.824
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:38.395
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -7976,7 +7976,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:30.824
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:38.395
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -8074,7 +8074,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:30.824
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:38.395
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -8169,7 +8169,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:30.924
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:38.461
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -8267,7 +8267,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:30.924
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:38.461
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -8361,7 +8361,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:30.924
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:38.461
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -8456,7 +8456,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:30.925
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:38.461
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -8554,7 +8554,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:30.925
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:38.461
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -8649,7 +8649,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:31.751
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:41.880
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -8747,7 +8747,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:31.751
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:41.880
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -8841,7 +8841,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:31.751
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:41.880
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -8936,7 +8936,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:31.751
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:41.880
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -9034,7 +9034,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:31.751
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:41.880
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -9129,7 +9129,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:00:33.143
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:02:44.178
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -9227,7 +9227,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:33.143
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:44.179
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -9321,7 +9321,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:33.143
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:44.179
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -9416,7 +9416,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:00:33.143
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:02:44.179
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -9514,7 +9514,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:00:33.143
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:02:44.179
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -9609,7 +9609,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:02:00.680
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:03:01.135
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -9707,7 +9707,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:00.681
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:01.135
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -9801,7 +9801,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:00.681
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:01.135
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -9896,7 +9896,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:02:00.681
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:03:01.135
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -9994,7 +9994,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:00.681
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:01.135
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -10089,7 +10089,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:02:07.381
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:03:02.406
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -10187,7 +10187,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:07.381
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:02.406
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -10281,7 +10281,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:07.381
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:02.406
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -10376,7 +10376,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:02:07.381
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:03:02.406
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -10474,7 +10474,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:07.382
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:02.406
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -10569,7 +10569,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:02:09.762
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:03:03.837
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -10667,7 +10667,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:09.762
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:03.837
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -10761,7 +10761,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:09.762
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:03.837
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -10856,7 +10856,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:02:09.762
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:03:03.837
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -10954,7 +10954,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:09.762
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:03.837
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -11049,7 +11049,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 15:02:10.810
+!ENTRY org.eclipse.jdt.core 4 2 2024-03-04 17:03:06.481
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -11147,7 +11147,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:10.810
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:06.482
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -11241,7 +11241,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:10.810
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:06.482
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
@@ -11336,7 +11336,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
 
-!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 15:02:10.810
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-04 17:03:06.482
 !MESSAGE Exception occurred while creating compilation participant
 !STACK 1
 org.eclipse.core.runtime.CoreException: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
@@ -11434,7 +11434,7 @@ Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor cann
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 77 more
-!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 15:02:10.810
+!SUBENTRY 1 org.eclipse.xtext.ui.shared 4 0 2024-03-04 17:03:06.482
 !MESSAGE com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor (occurred in org.eclipse.xtext.ui.shared.internal.ExecutableExtensionFactory)
 !STACK 0
 com.google.common.util.concurrent.ExecutionError: com.google.common.util.concurrent.ExecutionError: java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor

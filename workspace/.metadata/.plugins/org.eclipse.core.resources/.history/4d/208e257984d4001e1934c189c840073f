@@ -1,9 +1,0 @@
-package edu.missouri.mca.javasig;
-
-public class GenFunc {
-	public <XType> void printAny(XType o) {
-		System.out.println(
-				o.getClass().getName()
-		);
-	}
-}

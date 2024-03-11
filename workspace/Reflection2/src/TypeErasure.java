@@ -3,7 +3,7 @@ public class TypeErasure {
 
 	public static void main(String[] args) {
 		try {
-			var m = ErasedClass.class.getDeclaredMethods()[1];
+			var m = ErasedClass.class.getDeclaredMethods()[0];
 			System.out.println(m.getName());
 			for(var type : m.getParameterTypes()) {
 				System.out.println(type.getName());

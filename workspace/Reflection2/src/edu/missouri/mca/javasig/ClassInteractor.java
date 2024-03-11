@@ -53,13 +53,37 @@ public class ClassInteractor {
 					} else if(args.length < 3) {
 						print("Must provide function name");
 					} else if(args.length < 4) {
-						print("Must provide secondary ref or string value");
+						Object o = getInstance(args[1]);
+						
+						if(o == null) {
+							break;
+						}
+						
+						for(var m : o.getClass().getMethods()) {
+							if(m.getName().equals(args[2])) {
+								try {
+									Object ret = m.invoke(o);
+									instances.add(ret);
+									printInstance(instances.size() - 1);
+									break;
+								} catch (IllegalAccessException | IllegalArgumentException
+										| InvocationTargetException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+									break;
+								}
+							}
+						}
+						print("Method [" + args[2] + "] not found for class [" + args[1] + "]");
 					} else {
-						Object arg = null;
-						if(args[3].startsWith("$")) {
-							arg = getInstance(args[3]);
-						} else {
-							arg = args[3];
+						Object fnargs[] = new Object[args.length - 3];
+
+						for(int i = 3; i < args.length; ++i) {
+							if(args[i].startsWith("$")) {
+								fnargs[i - 3] = getInstance(args[i]);
+							} else {
+								fnargs[i - 3] = args[i];
+							}
 						}
 						
 						Object o = getInstance(args[1]);
@@ -71,7 +95,7 @@ public class ClassInteractor {
 						for(var m : o.getClass().getMethods()) {
 							if(m.getName().equals(args[2])) {
 								try {
-									Object ret = m.invoke(o, arg);
+									Object ret = m.invoke(o, fnargs);
 									instances.add(ret);
 									printInstance(instances.size() - 1);
 									break;

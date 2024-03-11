@@ -45,7 +45,7 @@ public class ClassInteractor {
 				break;
 			}
 			
-			switch(args[0].toLowerCase()) {
+			outer: switch(args[0].toLowerCase()) {
 				case "call":
 					if(args.length < 2) {
 						print("Must provide instance ref");
@@ -61,16 +61,22 @@ public class ClassInteractor {
 						
 						for(var m : o.getClass().getMethods()) {
 							if(m.getName().equals(args[2])) {
+								if(m.getParameterCount() != 0) {
+									print("Skipping method: " + args[2] + "(" + String.join(", ", 
+											Arrays.stream(m.getParameterTypes()).map(cl -> cl.getName()).toList())
+									+ ")");
+									continue;
+								}
 								try {
 									Object ret = m.invoke(o);
 									instances.add(ret);
 									printInstance(instances.size() - 1);
-									break;
+									break outer;
 								} catch (IllegalAccessException | IllegalArgumentException
 										| InvocationTargetException e) {
 									// TODO Auto-generated catch block
 									e.printStackTrace();
-									break;
+									break outer;
 								}
 							}
 						}
@@ -94,16 +100,23 @@ public class ClassInteractor {
 						
 						for(var m : o.getClass().getMethods()) {
 							if(m.getName().equals(args[2])) {
+								print("Found method: " + args[2] + "(" + String.join(", ", 
+										Arrays.stream(m.getParameterTypes()).map(cl -> cl.getName()).toList())
+								+ ")");
+								if(!input("Call this function?: ").toLowerCase().startsWith("y")) {
+									print("Skipping");
+									continue;
+								}
 								try {
 									Object ret = m.invoke(o, fnargs);
 									instances.add(ret);
 									printInstance(instances.size() - 1);
-									break;
+									break outer;
 								} catch (IllegalAccessException | IllegalArgumentException
 										| InvocationTargetException e) {
 									// TODO Auto-generated catch block
 									e.printStackTrace();
-									break;
+									break outer;
 								}
 							}
 						}
@@ -111,7 +124,81 @@ public class ClassInteractor {
 					}
 					break;
 				case "callstatic":
-					print("Called static");
+					if(args.length < 2) {
+						print("Must provide class name");
+						break;
+					} else if(args.length < 3) {
+						print("Must provide function name");
+					} else if(args.length < 4) {
+						Class<?> c = getByName(args[1]);
+						
+						if(c == null) {
+							break;
+						}
+						
+						for(var m : c.getMethods()) {
+							if(m.getName().equals(args[2])) {
+								if(m.getParameterCount() != 0) {
+									print("Skipping method: " + args[2] + "(" + String.join(", ", 
+											Arrays.stream(m.getParameterTypes()).map(cl -> cl.getName()).toList())
+									+ ")");
+									continue;
+								}
+								try {
+									Object ret = m.invoke(null);
+									instances.add(ret);
+									printInstance(instances.size() - 1);
+									break outer;
+								} catch (IllegalAccessException | IllegalArgumentException
+										| InvocationTargetException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+									break outer;
+								}
+							}
+						}
+						print("Method with no arguments [" + args[2] + "] not found for class [" + args[1] + "]");
+					} else {
+						Object fnargs[] = new Object[args.length - 3];
+
+						for(int i = 3; i < args.length; ++i) {
+							if(args[i].startsWith("$")) {
+								fnargs[i - 3] = getInstance(args[i]);
+							} else {
+								fnargs[i - 3] = args[i];
+							}
+						}
+						
+						Class<?> c = getByName(args[1]);
+						
+						if(c == null) {
+							break;
+						}
+						
+						for(var m : c.getMethods()) {
+							if(m.getName().equals(args[2])) {
+								print("Found method: " + args[2] + "(" + String.join(", ", 
+										Arrays.stream(m.getParameterTypes()).map(cl -> cl.getName()).toList())
+								+ ")");
+								if(!input("Call this function?: ").toLowerCase().startsWith("y")) {
+									print("Skipping");
+									continue;
+								}
+								try {
+									Object ret = m.invoke(null, fnargs);
+									instances.add(ret);
+									printInstance(instances.size() - 1);
+									break outer;
+								} catch (IllegalAccessException | IllegalArgumentException
+										| InvocationTargetException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+									break outer;
+								}
+							}
+						}
+						print("Method [" + args[2] + "] not found for class [" + args[1] + "]");
+					}
 					break;
 				case "new":
 					if(args.length < 2) {

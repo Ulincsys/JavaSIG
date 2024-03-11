@@ -12,7 +12,7 @@ public class MyClassLoader extends ClassLoader {
 	public static void main(String[] args) {
 		MyClassLoader l = new MyClassLoader();
 		
-		Class<?> c = l.tryLoadClass("java.io.BufferedReader");
+		Class<?> c = l.tryLoadClass("edu.missouri.mca.javasig.ClassInteractor");
 		System.out.println(String.valueOf(c));
 	}
 }

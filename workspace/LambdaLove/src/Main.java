@@ -10,6 +10,25 @@ public class Main {
 		
 		IFunc k = new ImplTest();
 		call("Test", k::func);
+		
+		var fn3 = new Consumer<String>() {
+			@Override
+			public void accept(String t) {
+				System.out.println(t);
+			}
+		};
+		
+		Consumer<String> fn4 = (s) -> {
+			System.out.println(s);
+		};
+		
+		System.out.println(executeFn(10, (n) -> {
+			return n * 7;
+		}));
+	}
+	
+	public static Number executeFn(Integer n, IMultiplyBySeven<Integer, Number> fn) {
+		return fn.perform(n);
 	}
 	
 	public static void call(String s, Consumer<String> fn) {

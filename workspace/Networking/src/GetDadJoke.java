@@ -14,13 +14,15 @@ public class GetDadJoke {
 		
 		var request = builder.uri(URI.create("https://icanhazdadjoke.com")).GET()
 				.header("Accept", "application/json")
-				.header("User-Agent", "Java Networking Demo").build();
+				.header("User-Agent", "Java/Networking Demo").build();
 		
 		try {
 			var response = client.send(request, BodyHandlers.ofInputStream());
 			
 			var in = new InputStreamReader(response.body());
 			var obj = JsonParser.parseReader(in);
+			
+			System.out.println(obj);
 			
 			String joke = obj.getAsJsonObject().get("joke").getAsString();
 			System.out.println(joke);

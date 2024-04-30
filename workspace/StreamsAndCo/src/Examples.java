@@ -9,17 +9,30 @@ public class Examples {
 		
 		System.out.println(l.stream().map((i) -> i * 2).toList());
 		
-		System.out.println(l.stream().filter((i) -> i % 2 == 0).toList());
+		System.out.println(l.stream().filter(Examples::isEven).toList());
 		
-		System.out.println(String.join(", ", l.stream().map((i) -> String.valueOf(i)).toArray(String[]::new)));
+		System.out.println(String.join(", ", l.stream().map(String::valueOf).toArray(String[]::new)));
 		
-		var ints = Stream.generate(() -> ThreadLocalRandom.current().nextInt())
+		var ints = Stream.generate(() -> {
+			Integer i =
+			ThreadLocalRandom.current().nextInt(25);
+			System.out.println("Supplying random int: " + i);
+			return i;
+		})
 			.distinct()
-			.filter((i) -> i % 2 == 0)
-			.filter((i) -> i > 0)
+			.filter(Examples::isEven)
+			.filter((i) -> {
+				System.out.println("Checking positive: " + i);
+				return i > 0;
+			})
 			.limit(10)
 			.toList();
 		
 		System.out.println(ints);
+	}
+
+	public static Boolean isEven(Integer i) {
+		System.out.println("Checking even: " + i);
+		return i % 2 == 0;
 	}
 }
